@@ -9,7 +9,7 @@ stage('Build') {
 // Build the Java application (replace with your build commands)
 sh 'javac -version'
 }
-stage('Deploy and release') {
+stage('Deploy') {
 // Deploy the application (replace with your deployment commands)
 sh 'echo "Deploying the application"'
 }
